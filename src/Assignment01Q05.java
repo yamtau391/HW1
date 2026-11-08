@@ -18,7 +18,7 @@ public class Assignment01Q05 {
 
         while (head < tail) {
             int current = queue[head++];
-
+            
             if (current == j) {
                 return dist[current];
             }
